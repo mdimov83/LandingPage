@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 10px 180px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+header nav{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-basis: 50%;
+    font-size: 12px;
+}
+header nav ul li{
+    list-style: none;
+    margin-right: -50px;
+    padding: 0 13px;
+}
+header nav ul li p{
+    padding: 0;
+}
+header nav ul li p:nth-child(2){
+    font-weight: bold;
+}
+
+.image-wrapper{
+    flex-basis: 30%;
+    margin-left: 150px;
+}
+.image-wrapper img{
+    width: 160px;
+}
+.info{
+    border-right: 1px solid #E5E5E5;
+}
+header nav ul li .get-a-quote{
+    color: white;
+    text-decoration: none;
+    background: #FFB600;
+    padding: 8px 23px;
+    border-radius: 6px;
+}
+.backgroung-img{
+    position: relative;
+}
+.project-nav{
+    position: absolute;
+    top: 108px;
+    left: 314px;
+    display: flex;
+    justify-content: space-between;
+}
+.project-nav ul li{
+    margin: 1px;
+}
+.project-nav ul li a{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.search-field-wrapper{
+    color: #99998F;
+    padding-left: 498px;
+}
+.project-nav ul li a i{
+    margin-left: 3px;
+}
+.project-headers{
+    position: absolute;
+    top: 180px;
+    color: white;
+    right: 638px;
+}
+.project-headers h1{
+    font-size: 40px;
+    text-align: center;
+}
+.project-headers h4{
+    font-size: 12px;
+    margin-top: -36px;
+}
+.backgroung-img{
+    margin: 0px -134px
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.central-img img{
+    width: 450px;
+    height: 400px;
+}
+.central-img {
+    padding: 26px;
+}
+.main-content{
+    font-size: 12px;
+}
+.main-content a{
+    color: white;
+    text-decoration: none;
+    background: #FFB600;
+    padding: 8px 23px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.information-footer{
+    color: white;
+    background: #030303;
+    display: flex;
+    margin: -15px 49px;
+    font-size: 10px;
+}
+.nav-footer{
+    background: #FFB600;
+    display: flex;
+    margin: -15px 49px;
+    justify-content: space-around;
+    font-size: 13px;
+    color: black;
+}
+.nav-footer ul{
+    display: flex;
+}
+.nav-footer ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+.nav-footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+.image-logo-wrapper img{
+    width: 140px;
+}
+.about-us, .working-hours, .services{
+    PADDING: 10px 158px;
+}
+h3{
+    border-left: 1px solid #FFB600;
+    padding: 0px 10px;
+}
+.about-us ul{
+    display: flex;
+    margin: 0px -109px;
+}
+.about-us ul li{
+    list-style: none;
+    padding: 0px 10px;
+    margin-left: 59px;
+}
